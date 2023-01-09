@@ -16,23 +16,15 @@ defined('BASEPATH') OR exit('');
         
         <!-- LOAD FILES -->
         <?php if((stristr($_SERVER['HTTP_HOST'], "localhost") !== FALSE) || (stristr($_SERVER['HTTP_HOST'], "192.168.") !== FALSE)|| (stristr($_SERVER['HTTP_HOST'], "127.0.0.") !== FALSE)): ?>
-        <!-- <link rel="stylesheet" href="<?=base_url()?>public/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="<?=base_url()?>public/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="<?=base_url()?>public/font-awesome/css/font-awesome-animation.min.css"> -->
          <!-- Google Font: Source Sans Pro -->
          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
          <link rel="stylesheet" href="<?=base_url()?>public/plugins/fontawesome-free/css/all.min.css">
          <link rel="stylesheet" href="<?=base_url()?>public/dist/css/adminlte.min.css">
          <link rel="stylesheet" href="<?=base_url()?>public/ext/select2/select2.min.css">
-
         <script src="<?=base_url()?>public/js/jquery.min.js"></script>
-        <!-- Bootstrap 4 -->
         <script src="<?=base_url()?>public/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <!-- AdminLTE App -->
         <script src="<?=base_url()?>public/dist/js/adminlte.min.js"></script>
-        <!-- <script src="<?=base_url()?>public/bootstrap/js/bootstrap.min.js"></script> -->
         <script src="<?=base_url()?>public/ext/select2/select2.min.js"></script>
-
         <script src="<?= base_url() ?>public/js/main.js"></script>
 
         <!-- </?php else: ?> -->
@@ -49,9 +41,7 @@ defined('BASEPATH') OR exit('');
         <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script> -->
 
         <?php endif; ?>
-        
-        <!-- custom CSS -->
-        <!-- <link rel="stylesheet" href="<?= base_url() ?>public/css/main.css"> -->
+
     </head>
 
     <body class="hold-transition sidebar-mini">
